@@ -22,8 +22,7 @@ body{
     grid-template-columns: [sidebar-start] 14rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start]  minmax(min-content, 14rem) [col-end] )  [center-end] minmax(6rem, 1fr) [full-end] ; /*specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
 }
 /* SIDEBAR */
-.sidebar{
-   
+.sidebar{ 
     background-color: #101d2c;
     grid-column: sidebar-start / sidebar-end ;
     grid-row: 1 / -1;
